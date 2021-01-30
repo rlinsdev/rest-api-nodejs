@@ -7,6 +7,8 @@ Maransatto
 npm init
 git init
 npm install --save express
+npm install --save-dev nodemon -> Servidor sempre atualizando automaticamente com alterações que for sendo realizada no código
+npm install --save morgan -> Colocar p/ monitoramento das rotas chamadas no ambiente de desenvolvimento
 ```
 
 After tsc --init, just let run tsc -w in one window command 
